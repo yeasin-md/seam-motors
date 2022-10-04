@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Seam Motors || About - Display Centre & Vehicle Importer, Dhaka, Bangladesh. All kinds of Auto Mobiles Import, Sales & Display Center. One stop solution for your next decision about cars.
+      Bangladesh's Top Reknown Car Market, it's an experience of excellence inside, we provide."
+    />
+    <meta name="theme-color" content="#821822" />
+    <title>Seam Motors || About</title>
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="bull.css" />
+    <script
+      src="https://kit.fontawesome.com/223a3c6c99.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="./images/logo2.jpg"
+            style="height: 80px; width: 80px; border-radius: 50%"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!------- about us content ------>
+    <section class="about-us">
+      <div class="row" style="display: flex; align-items: center">
+        <div class="about-col">
+          <h1>Pre Order Purchase and Ready Stock purchase in one place!</h1>
+          <p>
+            Your onestop solution for recondition automobile in Bangladesh.
+            Serving the nation with good quality vehicle since last 2 decades.
+          </p>
+          <a href="https://www.facebook.com/SeamMotors" class="hero-btn red-btn"
+            >Explore Now</a
+          >
+        </div>
+        <div class="about-col" style="margin-bottom: 1rem">
+          <img src="nigga.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!------ footer ------>
+
+    <section class="footer">
+      <div class="divider-frame">
+        <div class="divider-frame1"></div>
+        <div class="divider-frame2"></div>
+      </div>
+      <p>Display Center & Vehicle Importer</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/SeamMotors" target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <i class="fa fa-twitter"></i>
+        <a
+          href="https://instagram.com/seammotors?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+      var navLinks = document.getElementById('navLinks');
+
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
